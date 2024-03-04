@@ -1,0 +1,140 @@
+:root {
+    --hero-text-color: #F9FAF8;
+    --hero-bg-color: #1F2937;
+    --quote-bg-color: #E5E7EB;
+    --quote-text-color: #1F2937;
+    --btn-color: #3882F6;
+    font-family: "Roboto", sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: var(--hero-bg-color);
+    color: var(--hero-text-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 16px;
+    flex: 0;
+}
+
+.contact-banner {
+    height: 400px;
+}
+
+.header-logo {
+    font-size: 36px;
+    margin-left: 40px;
+} 
+
+.banner-paragraph {
+    font-size: 28px;
+}
+
+.contact-banner-btn {
+    background-color: var(--btn-color);
+    color: var(--hero-text-color);
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+}
+
+.main {
+    padding: 0px;
+    flex: 1 1 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    list-style: none;
+}
+
+.cloud-img {
+    max-height: 200px;
+    max-width: 600px;
+    margin: 0px 36px;
+}
+
+.contact-banner {
+    background-color: var(--hero-bg-color);
+    color: var(--hero-text-color);
+    display: flex;
+    flex-direction: row;
+    padding: 102px
+}
+
+.my-icons-container {
+    display: flex;
+    flex-direction: column;
+    padding: 102px
+}
+
+.my-icons-container h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.icons-title {
+    margin-left: 40px;
+}
+
+.my-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.icon {
+    flex: 1 1 0;
+    max-width: 400px;
+}
+
+.quote {
+    background-color: var(--quote-bg-color);
+    padding: 102px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.contact-modal {
+    padding: 102px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-modal button {
+    background-color: var(--btn-color);
+    color: var(--hero-text-color);
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    margin-top: 16px;
+}
+
+.quoter {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.footer {
+   background-color: var(--hero-bg-color);
+   color: var(--hero-text-color);
+   min-height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
